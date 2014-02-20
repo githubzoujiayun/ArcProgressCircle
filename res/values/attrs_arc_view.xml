@@ -1,0 +1,9 @@
+<resources>
+
+    <declare-styleable name="ArcProgressCircle">
+        <attr name="arcRad" format="float" />
+        <attr name="arcColor" format="color|reference" />
+        <attr name="arcDrawable" format="color|reference" />
+    </declare-styleable>
+
+</resources>
