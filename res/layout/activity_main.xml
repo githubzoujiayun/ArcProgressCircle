@@ -13,12 +13,13 @@
         android:id="@+id/arcview"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        app:arcColor="#CCDDEE"
-        app:arcRad="45" />
+        android:background="#CCCCCC"
+        app:arcColor="#CCDDEE" />
 
     <TextView
         android:id="@+id/textview"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arcview" />
 
 </RelativeLayout>
